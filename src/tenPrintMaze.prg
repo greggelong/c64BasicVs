@@ -28,7 +28,7 @@
 110 poke55296 +x + 40*y,7:return
 299 rem sub cheks for collision tree or heart
 300 if peek(1024+x+40*y)= 77then 500
-300 if peek(1024+x+40*y)= 78then 500
+301 if peek(1024+x+40*y)= 78then 500
 302 if peek(1024+x+40*y)= 90then s=s+1
 303 if s =10then 600 :
 400 return
